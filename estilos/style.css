@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     padding: 0px;
     margin: 0px;
@@ -96,6 +97,7 @@ header{
     box-sizing: border-box;
     background: #4b4b4b;
     border: 2px solid transparent;
+    cursor: context-menu;
 }
 #aproveitep02div:hover{
     border: 2px solid rgb(141, 141, 141)
@@ -109,4 +111,27 @@ header{
 #aproveitep03:hover{
     color: #ffffff73;
     cursor: pointer;
+}
+
+#ibusca{
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+    margin: 20px;
+    width: 90vw;
+    height: 30px;
+    background: black;
+    color:#747474;
+    border: 2px solid #747474;
+    position: absolute;
+}
+#ibusca:default{
+    background-color: white;
+}
+.material-symbols-outlined {
+    position: relative;
+    top: 22px;
+    right: -88vw;
+    color: #747474;
+    cursor:text;
 }
