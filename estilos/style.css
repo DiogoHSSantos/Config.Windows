@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+body{
+    background: #000000;
+}
+
+header{
+    background:#181818;
+    height: 310px;
+}
+
+.titulo{
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.perfil{
+    display: block;
+    margin: auto;
+    padding: 20px 80px;
+    width: 200px;
+}
+.foto{
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(179, 179, 179);
+    background-image: url(../fotos/minhaFoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    right: 70px;
+}
+.dados{
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    padding-left: 50px;
+    position:absolute;
+    top: 10%;
+    right: center
+
+}
+#nome1{
+    font-weight: bolder;
+    font-size: 29px;
+    padding: 5px;
+    cursor:context-menu;
+}
+.email{
+    color:#cacaca;
+    padding: 2px 5px;
+    cursor: context-menu;
+}
+
+#acessarconta{
+    color: #74747479;
+    padding: 7px 5px;
+}
+#acessarconta:hover{
+    color: #747474;
+    cursor: pointer;
+}
+
+#aproveite{
+    display: inline-block;
+}
+#aproveiteh201{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-bottom: 5px ;
+}
+#aproveitep01{
+    font-size: 14px;
+    font-weight: 500;
+    color: #797979;
+    padding-left: 30px ;
+}
+#aproveitep02div{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 0;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 6px 30px;
+    box-sizing: border-box;
+    background: #4b4b4b;
+    border: 2px solid transparent;
+}
+#aproveitep02div:hover{
+    border: 2px solid rgb(141, 141, 141)
+}
+#aproveitep03{
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff3a;
+    margin-left: 8px;
+}
+#aproveitep03:hover{
+    color: #ffffff73;
+    cursor: pointer;
+}
