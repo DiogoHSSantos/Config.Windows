@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+ ::-webkit-scrollbar{
+    display: none;
+ }
 
 *{
     padding: 0px;
@@ -125,13 +127,44 @@ header{
     border: 2px solid #747474;
     position: absolute;
 }
-#ibusca:default{
-    background-color: white;
+#ibusca:hover{
+    border: 2px solid #ffffffad;
 }
-.material-symbols-outlined {
+#logolupa {
     position: relative;
     top: 22px;
     right: -88vw;
     color: #747474;
     cursor:text;
+}
+
+#logocomput{
+    display: inline-block;
+    padding-left: 20px;
+    color: #4b4b4b;
+}
+.listacont{
+    display: inline-block;
+    padding: 10px;
+}
+#primeiralista{
+    margin-top: 50px;
+}
+.lista{
+    padding: 0px 0px;
+    height: 60px;
+    display: block;
+    cursor: context-menu;
+}
+.lista:hover{
+    background-color: #4b4b4b50;
+}
+.titulolist{
+    font-size: 14px;
+    padding-bottom: 4px;
+
+}
+.descriçao{
+    font-size: 14px;
+    color: #747474;
 }
