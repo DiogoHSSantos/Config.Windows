@@ -146,6 +146,7 @@ header{
 .listacont{
     display: inline-block;
     padding: 10px;
+    text-align: left;
 }
 #primeiralista{
     margin-top: 50px;
