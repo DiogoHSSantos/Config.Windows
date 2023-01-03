@@ -45,13 +45,10 @@ header{
 }
 .dados{
     display: block;
-    margin: auto;
     font-size: 14px;
     padding-left: 50px;
     position:absolute;
     top: 50px;
-    right: center
-
 }
 #nome1{
     font-weight: bolder;
