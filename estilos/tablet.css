@@ -4,6 +4,16 @@
     margin: 0px;
 
 }
+#buscatudo{
+    position: relative;
+    right: -20%;
+}
+#ibusca{
+    width: 50vw;
+}
+#logolupa{
+    right: -48vw;
+}
 #lista{
     text-align: center;
 }

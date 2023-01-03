@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+header{
+    height: 180px;
+}
+.perfil{
+    display: inline-block;
+    margin-left: 70px;
+}
+#aproveite{
+    display: inline-block;
+    position: fixed;
+    top: 50px;
+}

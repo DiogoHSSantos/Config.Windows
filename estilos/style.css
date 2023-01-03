@@ -49,7 +49,7 @@ header{
     font-size: 14px;
     padding-left: 50px;
     position:absolute;
-    top: 10%;
+    top: 50px;
     right: center
 
 }
@@ -76,6 +76,7 @@ header{
 
 #aproveite{
     display: inline-block;
+    padding: 0px 20px;
 }
 #aproveiteh201{
     font-size: 20px;
